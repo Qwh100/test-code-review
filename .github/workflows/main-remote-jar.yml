@@ -3,10 +3,10 @@ name: OpenAI Code Review
 on:
   push:
     branches:
-      - master
+      - 222
   pull_request:
     branches:
-      - master
+      - 222
 
 jobs:
   code-review:
