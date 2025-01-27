@@ -13,5 +13,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world33445555566611112222222222!");
         System.out.println("测试AI代码评审组件22");
+        System.out.println("Hello Github");
     }
 }
