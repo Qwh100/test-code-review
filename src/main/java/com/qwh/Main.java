@@ -11,7 +11,7 @@ package com.qwh;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world334455555!");
+        System.out.println("Hello world334455555666!");
         System.out.println("测试AI代码评审组件22");
     }
 }
