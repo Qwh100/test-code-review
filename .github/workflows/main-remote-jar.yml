@@ -43,6 +43,8 @@ jobs:
         run: |
           echo "BRANCH_NAME=${{ github.head_ref }}" >> $GITHUB_ENV
           echo "TARGET_BRANCH=origin/${{ github.base_ref }}" >> $GITHUB_ENV
+          echo "BEFORE_COMMIT=0000000000000000000000000000000000000000" >> $GITHUB_ENV  # 默认值
+          echo "AFTER_COMMIT=0000000000000000000000000000000000000000" >> $GITHUB_ENV   # 默认值
 
       - name: Set Common Variables
         run: |
