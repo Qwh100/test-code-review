@@ -36,6 +36,7 @@ jobs:
           echo "BEFORE_COMMIT=${{ github.event.before }}" >> $GITHUB_ENV
           echo "AFTER_COMMIT=${{ github.event.after }}" >> $GITHUB_ENV
           echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+          echo "TARGET_BRANCH=origin/${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
 
       - name: Set PR Event Variables
         if: github.event_name == 'pull_request'
