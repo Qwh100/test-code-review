@@ -15,7 +15,9 @@ public class Mail implements Serializable {
 
     private String text;// 邮件内容
 
-    private String filePath; // 附件路径
+    private String filePath; //
+
+    private String userId; //增加用户id
 
     public void setFilePath(String filePath) {
         this.filePath = filePath;
